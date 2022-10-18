@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 40px; 
+}
+.header ul li{
+    padding-right: 25px;
+}
+.header ul li a{
+    color: rgb(167, 167, 167);
+
+}
+.header .active{
+    color: #26AFF0 !important;
+}
+.header ul li a:hover{
+    color: #ffffff;
+    transition: .5s;
+}
+.banner h5{
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 400;
+
+}
+.banner p{
+    font-size: 16px;
+}
+
+.service{
+    background-color: #26AFF0;
+    padding-bottom: 5%;
+    padding: 0px 15px;
+    
+}
+.service h3{
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 5%;
+    margin-top: 20%;
+}
+.service span{
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 5%;
+}
+.service h5{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 3%;
+}
+.service .text p{
+    font-size: 14px;
+    color: #ffffff;
+    padding-bottom: 20%;
+}
+.recent h4{
+    font-size: 25px;
+    color: black;
+    margin-top: 7%;
+
+}
+.recent-image img{
+    height: 180px;
+    width: 300px;
+    padding-right: 7%;
+
+    
+}
+.layer{
+    background-color: transparent;
+    height: 180px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+
+}
+.layer-content h3{
+    position: absolute;
+    right: 50%;
+    bottom: 0px;
+    opacity: 0;
+    transition:.4s;
+    color: #fff;
+    transform: translateY(50%);
+}
+.recent-image:hover .layer{
+    background-color: rgb(15, 216, 238);
+    right: 100%;
+    opacity: 0.5;
+    padding-right: 7%;
+
+}
+.recent-image:hover .layer-content h3{
+    right: 30%;
+    opacity: 2;
+    margin-bottom:40%;
+   
+    
+}
+.recent-image{
+    position: relative;
+}
+.info{
+    background: #E3E3E3;
+    height: 200px;
+    width: 100%;
+    margin-top: 3%; 
+    padding: 5%;
+}
+
+.info p{
+    padding-top: 3%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact{
+    background-color:   #1C1D21;
+
+}
+.contact h5{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 20%;
+}
+.contact p{
+    color: #A0A0A0;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 5%;
+}
+.footer{
+    background: #16181D;
+    padding-top: 2%;
+}
+.footer p{
+    color: #ffffff;
+    font-size: 12px;
+    
+}
+.footer-icon i{
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 14px;
+    
+
+}
+
+
+
+
+
+
+
